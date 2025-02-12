@@ -50,7 +50,7 @@ let particles = [];
 // Crea un'esplosione di particelle in corrispondenza delle coordinate (x, y)
 function createExplosion(x, y) {
   // Definiamo una palette di colori
-  const colors = ['#ff4b1f', '#ff9068', '#ffc371', '#ffdd00', '#e8ff00'];
+  const colors = ['#2db8f1 ', '#f12d2d', '#68f12d', '#ffdd00', '#e8ff00'];
   const numParticles = 100; // numero di particelle per esplosione
   
   for (let i = 0; i < numParticles; i++) {
